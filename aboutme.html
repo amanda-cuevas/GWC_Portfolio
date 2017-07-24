@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head background="https://ibin.co/3TiGRodYNwX2.jpg">
+  <script> alert("Welcome to my webpage!"); </script>
 <title> Amanda Cuevas </title>
 </head>
 <body background="https://ibin.co/3TiGRodYNwX2.jpg">
   <h1> <center> <font color="orange" size="18" face="Comic Sans MS" style="outline-style: dotted;text-outline: 4px 4px #fffc72;outline-color: #fffc72;text-decoration: none; border-bottom: 1px solid #FF0000"> aBoUT mE </font> </center> </h1> <br>
   <br>
-<img src="https://ibin.co/3T1zUwGEAZUX.png" alt="Profile Picture" style="width:320px;height:300px;">
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://ibin.co/3T1zUwGEAZUX.png" alt="Profile Picture" style="width:320px;height:300px;">
+  <script>
+function bigImg(x) {
+    x.style.height = "600px";
+    x.style.width = "640px";
+}
+
+function normalImg(x) {
+    x.style.height = "300px";
+    x.style.width = "320px";
+}
+</script>
   <div style="background-color: #FFF8C6; margin-left: 20px; margin-right: 20px; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; padding-top: 8px;"> <font color="#ffffff" size="6" face="Helvetica"> Amanda Cuevas is a 16 year old "girl" (read: egg) who plans on becoming a computer science major. She enjoys playing videogames, reading (and sometimes even writing) books, hanging out with friends, and going on Netflix. Amanda is a recovering meme addict who often spirals back into her addiction. Currently, she uses books, movies, and tv shows as a method of procrastination and distracting her from her responsibilities. </font> </div>
   <br> <br>
   <div style="background-color: #000080; margin-left: 20px; margin-right: 20px; padding-bottom: 8px; padding-left: 8px; padding-right: 8px; padding-top: 8px;"> <font color="#ffff00" size="6" face="Helvetica"> Likes: reading, eating, playing video games, watching television and movies, and making people laugh. </font> </div>
